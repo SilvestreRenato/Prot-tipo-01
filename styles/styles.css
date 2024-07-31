@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  /* Fontes */
+  --fonte-principal: "Lato", sans-serif;
+  --fonte-secundaria: "Mukta Vaani", sans-serif;
+  --fonte-tercearia: "Kanit", sans-serif;
+
+  /* Cores */
+  --cor-principal: #2965f1;
+  --cor-secundaria: white;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +26,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 4rem 1.4rem 4rem;
-  background-color: white;
+  background-color: var(--cor-secundaria);
 }
 
 header .logo {
-  font-family: "Lato", sans-serif;
+  font-family: var(--fonte-principal);
   font-weight: 900;
   font-size: 1.5rem;
   cursor: pointer;
@@ -29,7 +42,7 @@ header .header-tabs-1 {
 }
 
 header .header-tabs-1 a {
-  font-family: "Mukta Vaani", sans-serif;
+  font-family: var(--fonte-secundaria);
   padding-bottom: 2px;
   position: relative;
   color: black;
@@ -59,7 +72,7 @@ header nav {
 }
 
 header nav div {
-  font-family: "Mukta Vaani", sans-serif;
+  font-family: var(--fonte-secundaria);
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -83,21 +96,21 @@ main .hero-section {
 
 .hero-section {
   height: 75vh;
-  background-color: #2965f1;
+  background-color: var(--cor-principal);
   padding-top: 2rem;
 }
 
 .hero-text {
-  font-family: "Lato", sans-serif;
+  font-family: var(--fonte-principal);
   font-weight: 900;
   font-size: 4rem;
-  color: white;
+  color: var(--cor-secundaria);
 }
 
 .second-text {
-  font-family: "Kanit", sans-serif;
+  font-family: var(--fonte-tercearia);
   font-size: 1.8rem;
-  color: white;
+  color: var(--cor-secundaria);
   padding-top: 0.5rem;
 }
 
@@ -120,7 +133,7 @@ main .hero-section {
   color: white;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Kanit", sans-serif;
+  font-family: var(--fonte-tercearia);
 }
 
 .css-logo {
@@ -143,11 +156,11 @@ main .hero-section {
 }
 
 .about h2 {
-  font-family: "Lato", sans-serif;
+  font-family: var(--fonte-principal);
   font-size: 3rem;
 }
 .about p {
-  font-family: "Kanit", sans-serif;
+  font-family: var(--fonte-tercearia);
   font-size: 1.2rem;
   padding-top: .5rem;
 }
