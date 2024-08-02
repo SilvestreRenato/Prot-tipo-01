@@ -143,9 +143,6 @@ main .hero-section {
 /* Segunda seção */
 
 .second-section {
-  background-image: url(/Images/cool-background.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 50vh;
   padding: 2rem 4rem 2rem 4rem;
   display: flex;
@@ -173,7 +170,7 @@ main .hero-section {
   font-family: var(--fonte-tercearia);
   margin-top: 2rem;
   padding: .8rem;
-  color: white;
+  color: black;
   background-color: transparent;
   outline: white;
   border: 1px solid #91c9ff;
