@@ -143,16 +143,18 @@ main .hero-section {
 /* Segunda seção */
 
 .second-section {
-  height: 50vh;
+  height: 60vh;
   padding: 2rem 4rem 2rem 4rem;
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .second-section .about {
   width: 55vh;
   margin-right: 10rem;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .about h2 {
@@ -181,4 +183,42 @@ main .hero-section {
 .about-Btn:hover {
   transition: 0.4s ease-in-out;
   background: #4f95da;
+}
+
+/* Terceira Sessão */
+
+.third-section {
+  background-color: var(--cor-principal);
+}
+
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13rem;
+
+  padding: 8rem;
+}
+
+.benefits div {
+  text-align: center;
+  width: 16rem;
+}
+
+.benefits div h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.benefits div p {
+  font-family: var(--fonte-tercearia);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+
+.benefits img {
+  width: 10rem;
 }
