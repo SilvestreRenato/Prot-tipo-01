@@ -143,6 +143,9 @@ main .hero-section {
 /* Segunda seção */
 
 .second-section {
+  background-image: url(/Images/cool-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vh;
   padding: 2rem 4rem 2rem 4rem;
   display: flex;
@@ -150,17 +153,35 @@ main .hero-section {
 }
 
 .second-section .about {
-  width: 40vh;
-  margin-right: 8rem;
-  margin-top: 2rem;
+  width: 55vh;
+  margin-right: 10rem;
+  margin-top: 4rem;
 }
 
 .about h2 {
   font-family: var(--fonte-principal);
   font-size: 3rem;
 }
+
 .about p {
   font-family: var(--fonte-tercearia);
   font-size: 1.2rem;
-  padding-top: .5rem;
+  padding-top: .8rem;
+}
+
+.about-Btn {
+  font-family: var(--fonte-tercearia);
+  margin-top: 2rem;
+  padding: .8rem;
+  color: white;
+  background-color: transparent;
+  outline: white;
+  border: 1px solid #91c9ff;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.about-Btn:hover {
+  transition: 0.4s ease-in-out;
+  background: #4f95da;
 }
