@@ -245,7 +245,7 @@ section .feature-section {
 }
 
 .feature-section {
-  height: 60vh;
+  height: 65vh;
 }
 
 .features {
@@ -253,11 +253,19 @@ section .feature-section {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  height: 40vh;
+  height: 45vh;
+}
+
+.card-with-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .card {
-  background-color: #aabbcc;
+  background-color: #4f95da;
   height: 23rem;
   width: 18rem;
   text-align: center;
@@ -293,4 +301,20 @@ section .feature-section {
 }
 .card p {
   margin-top: .5rem;
+}
+
+.btn-type-2 {
+  font-family: var(--fonte-tercearia);
+  background-color: transparent;
+  width: 18rem;
+  padding: .6rem;
+  border-radius: 2rem;
+  border: 1px solid #91c9ff;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-type-2:hover {
+  transition: 0.4s ease-in-out;
+  background-color: #4f95da;
 }
