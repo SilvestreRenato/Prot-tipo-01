@@ -245,7 +245,10 @@ section .feature-section {
 }
 
 .feature-section {
-  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 
 .features {
