@@ -321,3 +321,60 @@ section .feature-section {
   transition: 0.4s ease-in-out;
   background-color: #4f95da;
 }
+
+/* Quarta sessão */
+
+/* Para o segundo .section-title */
+section.section-title:nth-child(6) {
+  background-color: var(--cor-secundaria);
+}
+
+.fourth-section {
+  height: 50vh;
+  background-color: var(--cor-secundaria);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-box {
+  padding: 1rem 24rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Reverter a ordem dos elementos apenas no segundo content-box */
+.fourth-section .content-box:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.box-img img{
+  width: 400px;
+}
+
+.box-text {
+  font-family: var(--fonte-tercearia);
+  margin-top: 2rem;
+}
+
+.box-text h3 {
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+}
+
+.box-text button {
+  font-family: var(--fonte-tercearia);
+  margin-top: 1.5rem;
+  padding: .8rem;
+  background-color: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.box-text button:hover {
+  transition: 0.4s ease-in-out;
+  background: #4f95da;
+}
