@@ -325,15 +325,11 @@ section .feature-section {
 /* Quarta sessão */
 
 /* Para o segundo .section-title */
-section.section-title:nth-child(6) {
-  background-color: var(--cor-secundaria);
-}
 
 .fourth-section {
-  height: 50vh;
+  height: 100vh;
   background-color: var(--cor-secundaria);
-  display: flex;
-  flex-direction: column;
+  display: block;
   gap: 2rem;
 }
 
