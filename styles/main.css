@@ -1,0 +1,288 @@
+/* Main da página */
+
+main .hero-section {
+  padding: 2rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-section {
+  height: 75vh;
+  background-color: var(--cor-principal);
+  padding-top: 2rem;
+}
+
+.hero-text {
+  font-family: var(--fonte-principal);
+  font-weight: 900;
+  font-size: 4rem;
+  color: var(--cor-secundaria);
+}
+
+.second-text {
+  font-family: var(--fonte-tercearia);
+  font-size: 1.8rem;
+  color: var(--cor-secundaria);
+  padding-top: 0.5rem;
+}
+
+#main-button {
+  margin-top: 2rem;
+  padding: .8rem;
+  background-color: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+#main-button:hover {
+  transition: 0.4s ease-in-out;
+  background: #4f95da;
+}
+
+#main-button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--fonte-tercearia);
+}
+
+.css-logo {
+  width: 40rem;
+}
+
+/* Segunda seção */
+
+.second-section {
+  height: 60vh;
+  padding: 2rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.second-section .about {
+  width: 55vh;
+  margin-right: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.about h2 {
+  font-family: var(--fonte-principal);
+  font-size: 3rem;
+}
+
+.about p {
+  font-family: var(--fonte-tercearia);
+  font-size: 1.2rem;
+  padding-top: .8rem;
+}
+
+.about-Btn {
+  font-family: var(--fonte-tercearia);
+  margin-top: 2rem;
+  padding: .8rem;
+  color: black;
+  background-color: transparent;
+  outline: white;
+  border: 1px solid #91c9ff;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.about-Btn:hover {
+  transition: 0.4s ease-in-out;
+  background: #4f95da;
+}
+
+/* Terceira Sessão */
+
+.third-section {
+  background-color: var(--cor-principal);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+}
+
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+  padding: 8rem;
+}
+
+.benefits div {
+  text-align: center;
+  width: 16rem;
+}
+
+.benefits div h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.benefits div p {
+  font-family: var(--fonte-tercearia);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+
+.benefits img {
+  width: 10rem;
+}
+
+/* Sessão de Features */
+
+section .feature-section {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.section-title {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+.section-title h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 45vh;
+}
+
+.card-with-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #4f95da;
+  height: 23rem;
+  width: 18rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: .8rem;
+}
+
+.card h3 {
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+}
+
+.card p {
+  font-family: var(--fonte-tercearia);
+  font-size: 1rem;
+}
+
+.card img {
+  margin-top: -2rem;
+  border-radius: .8rem .8rem 0 0; 
+  height: 13rem;
+  width: 18rem;
+  object-fit: cover;
+  object-position: 50% 66%;
+
+}
+
+.card h3 {
+  margin-top: 1.5rem;
+}
+.card p {
+  margin-top: .5rem;
+}
+
+.btn-type-2 {
+  font-family: var(--fonte-tercearia);
+  background-color: transparent;
+  width: 18rem;
+  padding: .6rem;
+  border-radius: 2rem;
+  border: 1px solid #91c9ff;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-type-2:hover {
+  transition: 0.4s ease-in-out;
+  background-color: #4f95da;
+}
+
+/* Quarta sessão */
+
+.fourth-section {
+  height: 100vh;
+  background-color: var(--cor-secundaria);
+  display: block;
+  gap: 2rem;
+}
+
+.content-box {
+  padding: 1rem 24rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Reverter a ordem dos elementos apenas no segundo content-box */
+.fourth-section .content-box:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.box-img img{
+  width: 400px;
+}
+
+.box-text {
+  font-family: var(--fonte-tercearia);
+  margin-top: 2rem;
+}
+
+.box-text h3 {
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+}
+
+.box-text button {
+  font-family: var(--fonte-tercearia);
+  margin-top: 1.5rem;
+  padding: .8rem;
+  background-color: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.box-text button:hover {
+  transition: 0.4s ease-in-out;
+  background: #4f95da;
+}
