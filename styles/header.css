@@ -4,7 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 4rem 1.4rem 4rem;
+  padding: 1.4rem 4rem;
   background-color: var(--cor-secundaria);
 }
 
@@ -15,18 +15,23 @@ header .logo {
   cursor: pointer;
 }
 
-header .header-tabs-1 {
+header .header-tabs-1,
+header nav {
   display: flex;
   gap: 1.5rem;
 }
 
-header .header-tabs-1 a {
+header .header-tabs-1 a,
+header nav div {
   font-family: var(--fonte-secundaria);
-  padding-bottom: 2px;
-  position: relative;
   color: black;
   text-decoration: none;
+  position: relative;
+  cursor: pointer;
   transition: color 0.4s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 header .header-tabs-1 a:after {
@@ -43,19 +48,6 @@ header .header-tabs-1 a:after {
 
 header .header-tabs-1 a:hover:after {
   transform: scaleX(1);
-}
-
-header nav {
-  display: flex;
-  gap: 1rem;
-}
-
-header nav div {
-  font-family: var(--fonte-secundaria);
-  display: flex;
-  align-items: center;
-  gap: 0.2rem;
-  cursor: pointer;
 }
 
 header nav img {
