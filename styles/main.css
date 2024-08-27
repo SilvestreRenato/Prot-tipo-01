@@ -1,33 +1,37 @@
 /* Main da página */
 
-main .hero-section {
-  padding: 2rem 4rem 2rem 4rem;
+/* Estilos da hero-section */
+main .hero-section,
+.hero-section {
+  padding: 2rem 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
-}
-
-.hero-section {
   height: 75vh;
   background-color: var(--cor-principal);
   padding-top: 2rem;
 }
 
-.hero-text {
+/* Estilos dos textos dentro da hero-section */
+.hero-text,
+.second-text {
+  color: var(--cor-secundaria);
   font-family: var(--fonte-principal);
+}
+
+.hero-text {
   font-weight: 900;
   font-size: 4rem;
-  color: var(--cor-secundaria);
 }
 
 .second-text {
   font-family: var(--fonte-tercearia);
   font-size: 1.8rem;
-  color: var(--cor-secundaria);
   padding-top: 0.5rem;
 }
 
+/* Estilos do botão principal */
 #main-button {
   margin-top: 2rem;
   padding: .8rem;
@@ -39,7 +43,6 @@ main .hero-section {
 }
 
 #main-button:hover {
-  transition: 0.4s ease-in-out;
   background: #4f95da;
 }
 
@@ -50,6 +53,7 @@ main .hero-section {
   font-family: var(--fonte-tercearia);
 }
 
+/* Estilo do Logo */
 .css-logo {
   width: 40rem;
 }
@@ -58,7 +62,7 @@ main .hero-section {
 
 .second-section {
   height: 60vh;
-  padding: 2rem 4rem 2rem 4rem;
+  padding: 2rem 4rem;
   display: flex;
   justify-content: end;
   align-items: center;
