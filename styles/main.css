@@ -59,19 +59,17 @@ main .hero-section,
 }
 
 /* Segunda seção */
-
 .second-section {
   height: 60vh;
   padding: 2rem 4rem;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .second-section .about {
   width: 55vh;
-  margin-right: 10rem;
-  margin-top: 4rem;
+  margin: 4rem 10rem;
   margin-bottom: 4rem;
 }
 
@@ -99,19 +97,17 @@ main .hero-section,
 }
 
 .about-Btn:hover {
-  transition: 0.4s ease-in-out;
   background: #4f95da;
 }
 
 /* Terceira Sessão */
-
 .third-section {
   background-color: var(--cor-principal);
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  height: 70vh;
   align-items: center;
+  justify-content: center;
+  height: 70vh;
 }
 
 
@@ -128,16 +124,19 @@ main .hero-section,
   width: 16rem;
 }
 
+.benefits div h2,
+.benefits div p {
+  margin-top: 1rem;
+}
+
 .benefits div h2 {
   font-family: var(--fonte-secundaria);
   font-size: 2rem;
-  margin-top: 1rem;
 }
 
 .benefits div p {
   font-family: var(--fonte-tercearia);
   font-size: 1rem;
-  margin-top: 1rem;
 }
 
 
@@ -146,14 +145,13 @@ main .hero-section,
 }
 
 /* Sessão de Features */
-
 section .feature-section {
   background-color: whitesmoke;
   height: 100vh;
 }
 
 .section-title {
-  padding: 2rem 2rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -217,11 +215,9 @@ section .feature-section {
 
 }
 
-.card h3 {
+.card h3, .card p {
+  font-family: var(--fonte-secundaria);
   margin-top: 1.5rem;
-}
-.card p {
-  margin-top: .5rem;
 }
 
 .btn-type-2 {
@@ -232,7 +228,6 @@ section .feature-section {
   border-radius: 2rem;
   border: 1px solid #91c9ff;
   cursor: pointer;
-  transition: 0.4s ease-in-out;
 }
 
 .btn-type-2:hover {
@@ -241,7 +236,6 @@ section .feature-section {
 }
 
 /* Quarta sessão */
-
 .fourth-section {
   height: 100vh;
   background-color: var(--cor-secundaria);
@@ -254,11 +248,6 @@ section .feature-section {
   display: flex;
   justify-content: center;
   gap: 4rem;
-}
-
-/* Reverter a ordem dos elementos apenas no segundo content-box */
-.fourth-section .content-box:nth-of-type(2) {
-  flex-direction: row-reverse;
 }
 
 .box-img img{
@@ -287,6 +276,5 @@ section .feature-section {
 }
 
 .box-text button:hover {
-  transition: 0.4s ease-in-out;
   background: #4f95da;
 }
